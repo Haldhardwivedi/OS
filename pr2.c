@@ -9,22 +9,6 @@
 #define read_end 0
 #define write_end 1
 
-
-char reversed(char *str)
-{
-	char newstr[BUFFER_SIZE];
-	int i,j=0;
-	for(i=strlen(str)-1;i>=0;i--)
-	{
-		newstr[j++]=str[i];
-	}
-	for(i=0;i<j;i++)
-	{
-		str[i]=newstr[i];
-	}
-}
-
-
  int main(int argc, char const *argv[])
 {
 	char write_msg[BUFFER_SIZE];
