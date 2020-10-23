@@ -1,1 +1,1 @@
-# Question done as a part of assignment
+# Questions done as a part of assignment
