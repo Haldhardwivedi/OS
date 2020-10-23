@@ -9,7 +9,7 @@
 #define read_end 0
 #define write_end 1
 
-
+//function to generate all substrings for  a given string
 void substring(char str[], int n) 
 {
     for (int len = 1; len <= n; len++) 
