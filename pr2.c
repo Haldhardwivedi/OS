@@ -39,7 +39,7 @@
 		gets(write_msg);
 		close(fd1[write_end]);
 		close(fd2[read_end]);
-		//writing to pipe 1
+		//reading  to pipe 1
 		read(fd1[read_end],read_msg,BUFFER_SIZE);
 		close(fd1[read_end]);
 		char str[BUFFER_SIZE*2];
